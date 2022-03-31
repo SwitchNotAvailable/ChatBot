@@ -1,4 +1,4 @@
-package com.company;
+package src.main.java;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -20,8 +20,8 @@ public class BotWeather { //Converting JSON into a Java map
 
     public static void main(String[] args) {
         String API_KEY = "387efdcc121d025a5cc6b12e335a4f0e";
-        String location = "";
-        String urlString = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=" + location + "&appid=" + API_KEY + "&units=metric";
+        String LOCATION = "london";
+        String urlString = "https://api.openweathermap.org/data/2.5/forecast/hourly?q=" + LOCATION + "&appid=" + API_KEY + "&units=metric";
 
         try {
             StringBuilder result = new StringBuilder();
