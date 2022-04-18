@@ -1,4 +1,4 @@
-# Chat Bot - Group 1
+# Chat Bot
 
 
 
