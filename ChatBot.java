@@ -1,5 +1,3 @@
-package src.main.java;
-
 import javax.swing.*;
 
 public class ChatBot extends JFrame {
